@@ -1,0 +1,13 @@
+Dependencies
+    - zsh (oh-my-zsh)
+    - vim
+    - tmux
+    - ack
+    - vundle
+
+Vim plugin dependencies
+    - Ack (http://betterthangrep.com/)
+    - Vim Powerline (https://github.com/Lokaltog/vim-powerline)
+
+TMUX stuff
+    - reattach-to-user-namespace (http://robots.thoughtbot.com/post/19398560514/how-to-copy-and-paste-with-tmux-on-mac-os-x)

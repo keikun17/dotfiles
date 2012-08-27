@@ -1,0 +1,3 @@
+" remap Ctrl-P
+let g:ctrlp_map = ',t'
+nnoremap <silent> ,t :CtrlPMixed<CR>
