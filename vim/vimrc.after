@@ -3,28 +3,26 @@ map <D-W> <Plug>CamelCaseMotion_w
 map <D-B> <Plug>CamelCaseMotion_b
 map <D-E> <Plug>CamelCaseMotion_e
 
-vmap <D-W> <Plug>CamelCaseMotion_w
-vmap <D-B> <Plug>CamelCaseMotion_b
-vmap <D-E> <Plug>CamelCaseMotion_e
+vunmap E
+vunmap W
+vunmap B
 
-unmap E
-unmap W
-unmap B
+nunmap E
+nunmap W
+nunmap B
 
+" Buddy Magsipoc's vimrc
 
-" ()_()
-" (^_^)
-" (> <)
-"Buddy's changes below
-
-" ======== Solarize ========
+" Solarize
 syntax enable
 let g:solarized_termtrans = 1
 colorscheme solarized
 
-" ======== Glorious background toggling ========
-" requires solarizedLightLC theme from : https://github.com/pearofducks/vim-powerline/blob/develop/autoload/Powerline/Colorschemes/solarizedLightLC.vim
-" put this theme under this directory : ~/.yadr/vim/bundle/skwp-vim-powerline/autoload/Powerline/Colorschemes/
+" Glorious background toggling
+" requires solarizedLightLC theme from :
+"   https://github.com/pearofducks/vim-powerline/blob/develop/autoload/Powerline/Colorschemes/solarizedLightLC.vim
+" put this theme under this directory : 
+"   ~/.yadr/vim/bundle/skwp-vim-powerline/autoload/Powerline/Colorschemes/
 let g:powerline_dark_theme = 'skwp'
 let g:powerline_light_theme = 'solarizedLightLC'
 
@@ -48,25 +46,22 @@ function! ToggleEmoMode()
   PowerlineReloadColorscheme
 endfunction
 
-nmap <F5> :call ToggleEmoMode()<CR>
-imap <F5> :call ToggleEmoMode()<CR>
-vmap <F5> :call ToggleEmoMode()<CR>
-map <F5> :call ToggleEmoMode()<CR>
+nnoremap <F6> :call ToggleEmoMode()<CR>
 
-" ======== Sane copy/paste ========
+" Sane copy/paste
 " Yank text to the OS X clipboard
 noremap <leader>y "*y
 noremap <leader>yy "*Y
 
-" Preserve indentation while pasting text from the OS X clipboard
+" Preserve indention level while pasting text from the OS X clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 
-" ======== Vim plugin for switching between absolute and relative line numbers ========
+" Vim plugin for switching between absolute and relative line numbers
 " depending on the mode
 " source : https://github.com/myusuf3/numbers.vim
 nnoremap <F3> :NumbersToggle<CR>
 
-" ======== Disable arrow keys ========
+" Disable arrow keys
 noremap  <Up> ""
 noremap! <Up> <Esc>
 noremap  <Down> ""
@@ -76,6 +71,21 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
-" ======== keep cursor centered ========
+" keep cursor centered
 set so=999
 
+" highlight 80th character
+set textwidth=80
+set colorcolumn=+1
+
+" font size
+" set guifont=Monaco:h14
+set guifont=Inconsolata-dz\ for\ Powerline:h14
+
+" Tab controls
+nnoremap th :tabnext<CR>
+nnoremap tl :tabprev<CR>
+nnoremap tn :tabnew<CR>
+
+" Nerdtree
+nnoremap <C-S-n> :NERDTreeToggle<CR>
