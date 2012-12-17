@@ -11,7 +11,7 @@ nunmap E
 nunmap W
 nunmap B
 
-" Buddy Magsipoc's vimrc
+"Buddy's changes below
 
 " Solarize
 syntax enable
@@ -52,6 +52,12 @@ nnoremap <F6> :call ToggleEmoMode()<CR>
 " Yank text to the OS X clipboard
 noremap <leader>y "*y
 noremap <leader>yy "*Y
+
+" pbcopy for vim
+nmap <F1> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <F1> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <F2> :.w !pbcopy<CR><CR>
+vmap <F2> :w !pbcopy<CR><CR>
 
 " Preserve indention level while pasting text from the OS X clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
