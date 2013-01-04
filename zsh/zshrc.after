@@ -5,11 +5,10 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 bindkey -v 
-# vi style incremental search
-# bindkey '^R' history-incremental-search-backward
-# bindkey '^S' history-incremental-search-forward
-# bindkey '^P' history-search-backward
-# bindkey '^N' history-search-forward  
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+export EDITOR=vim
+
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
