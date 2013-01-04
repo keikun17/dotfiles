@@ -50,6 +50,7 @@ nnoremap <F6> :call ToggleEmoMode()<CR>
 
 " Sane copy/paste
 " Yank text to the OS X clipboard
+set clipboard=unnamed
 noremap <leader>y "*y
 noremap <leader>yy "*Y
 
