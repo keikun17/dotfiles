@@ -96,3 +96,6 @@ nnoremap tn :tabnew<CR>
 
 " Nerdtree
 nnoremap <C-S-n> :NERDTreeToggle<CR>
+
+" Use 256 colors plz
+set t_Co=256
