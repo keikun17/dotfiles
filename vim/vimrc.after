@@ -1,0 +1,18 @@
+
+"highlight 80th character
+set textwidth=80
+set colorcolumn=+1
+
+" font size
+set guifont=Inconsolata-dz\ for\ Powerline:h14
+
+" Tab controls
+nnoremap th :tabnext<CR>
+nnoremap tl :tabprev<CR>
+nnoremap tn :tabnew<CR>
+
+" Nerdtree
+nnoremap <C-S-n> :NERDTreeToggle<CR>
+
+" Use 256 colors plz
+set t_Co=256
