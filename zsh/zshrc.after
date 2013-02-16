@@ -13,8 +13,8 @@ bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward  
 
 
-# export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
 
 # PATH
 export PATH=$PATH:/usr/local/bin
+export PATH="$HOME/.rbenv/bin:$PATH"
