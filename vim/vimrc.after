@@ -17,7 +17,7 @@ set t_Co=256
 " ============================================================
 
 " Powerline
-set rtp+={path}/powerline/bindings/vim
+set rtp+=~/dotfiles/vim/bundle/powerline/powerline/bindings/vim
 
 " ============================================================
 " Remaps
