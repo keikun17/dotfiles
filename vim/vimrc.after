@@ -23,4 +23,3 @@ nnoremap tn :tabnew<CR>
 
 " Nerdtree
 nnoremap <C-S-n> :NERDTreeToggle<CR>
-
