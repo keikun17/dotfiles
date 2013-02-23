@@ -11,6 +11,9 @@ set guifont=Inconsolata\ for\ Powerline:h14
 " Use 256 colors plz
 set t_Co=256
 
+" Split fillchar
+set fillchars+=vert:\ 
+
 " Powerline thing
 " TODO : Make powerline work even if the set rtp line is at in powerline/plugin
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
