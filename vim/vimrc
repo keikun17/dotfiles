@@ -1,10 +1,13 @@
+set nocompatible
+
 " Initialize Pathogen
-execute pathogen#infect()
+runtime ~/.vim/autoload/pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
 
 " Syntax highlighting
 syntax on
 
-filetype plugin indent on
 
 " No swap files
 set noswapfile
@@ -15,6 +18,9 @@ set nowb
 silent !mkdir ~/.vim/backups > /dev/null 2>&1
 set undodir=~/.vim/backups
 set undofile
+
+filetype indent on
+filetype plugin on
 
 " TODO: Move contents of the .after files here
 source ~/.vimrc.after
