@@ -5,9 +5,10 @@ runtime ~/.vim/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
-" Syntax highlighting
+" Syntax highlighting and ColorSchemes
 syntax on
-
+set background=dark
+colorscheme solarized
 
 " No swap files
 set noswapfile
