@@ -1,5 +1,20 @@
+" Initialize Pathogen
 execute pathogen#infect()
+
+" Syntax highlighting
 syntax on
+
 filetype plugin indent on
 
+" No swap files
+set noswapfile
+set nobackup
+set nowb
+
+" Persistent Undo
+silent !mkdir ~/.vim/backups > /dev/null 2>&1
+set undodir=~/.vim/backups
+set undofile
+
+" TODO: Move contents of the .after files here
 source ~/.vimrc.after
