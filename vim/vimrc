@@ -1,27 +1,64 @@
-set nocompatible
+" Core things I do not  understand much 
+" ------------------------------------------------------------
+  set nocompatible
+  
+  " Initialize Pathogen
+  runtime ~/.vim/autoload/pathogen.vim
+  call pathogen#infect()
+  call pathogen#helptags()
+  
+  filetype indent on
+  filetype plugin on
 
-" Initialize Pathogen
-runtime ~/.vim/autoload/pathogen.vim
-call pathogen#infect()
-call pathogen#helptags()
+" Things that help me revert
+" ------------------------------------------------------------
+  " But No swap files, those are annoying
+  set noswapfile
+  set nobackup
+  set nowb
+  
+  " Persistent Undo
+  silent !mkdir ~/.vim/backups > /dev/null 2>&1
+  set undodir=~/.vim/backups
+  set undofile
 
-" Syntax highlighting and ColorSchemes
-syntax on
-set background=dark
-colorscheme solarized
+" Powerline runtimepath append stuff that i feel belongs to the plugin folder
+" but can't get working when it's there (TODO: get it working under plugins)
+" -----------------------------------------------------------
+  set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
-" No swap files
-set noswapfile
-set nobackup
-set nowb
+" Kawaii stuff
+" ------------------------------------------------------------
+  " Show line numbers
+  set nu
 
-" Persistent Undo
-silent !mkdir ~/.vim/backups > /dev/null 2>&1
-set undodir=~/.vim/backups
-set undofile
+ " Highlight 80th column
+ set textwidth=80
+ set colorcolumn=+1
+ 
+ " Font size
+ set guifont=Inconsolata\ for\ Powerline:h14
+ 
+ " Use 256 colors plz
+ set t_Co=256
+ 
+ " Split character (Default is '|'), yeah there's a trailing whitespace.
+ set fillchars+=vert:\ 
 
-filetype indent on
-filetype plugin on
 
-" TODO: Move contents of the .after files here
-source ~/.vimrc.after
+  " Syntax highlighting and ColorSchemes
+  syntax on
+  set background=dark
+  colorscheme solarized
+
+" Remaps
+" ------------------------------------------------------------
+
+  " Tabs
+  nnoremap th :tabnext<CR>
+  nnoremap tl :tabprev<CR>
+  nnoremap tn :tabnew<CR>
+  
+  " Nerdtree
+  nnoremap <C-S-n> :NERDTreeToggle<CR>
+
