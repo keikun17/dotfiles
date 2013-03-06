@@ -18,3 +18,5 @@ eval "$(rbenv init -)"
 # PATH
 export PATH=$PATH:/usr/local/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
+
+fpath=(.zprezto/modules/completion/external/src $fpath)
