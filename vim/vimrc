@@ -62,3 +62,10 @@
   " Nerdtree
   nnoremap <C-S-n> :NERDTreeToggle<CR>
 
+" Mouse (LOL!) things
+" ------------------------------------------------------------
+
+  " Scrolling
+  set mouse=a
+  map <ScrollWheelUp> <C-Y>
+  map <ScrollWheelDown> <C-E>
