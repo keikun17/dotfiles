@@ -14,3 +14,7 @@
 
 * Ack
 
+## TODO
+
+* Eliminate MAC Requirement
+* More Sane copy-paste via reverse ssh + variable pasteboard
