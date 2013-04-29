@@ -14,7 +14,21 @@
 
 * Ack
 
+## Includes
+
+### Vim
+
+* Ctrl-P
+* NerdCommenter
+* Powerline
+* Syntastic
+* vim-colors-solarized
+* vim-css-color
+* vim-gitgutter
+* vim-sensible
+
 ## TODO
 
 * Eliminate MAC Requirement
 * More Sane copy-paste via reverse ssh + variable pasteboard
+* Move vim shortcuts from 'Mengsk' to 'Volatile'
