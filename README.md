@@ -26,6 +26,7 @@
 * vim-css-color
 * vim-gitgutter
 * vim-sensible
+* vim-surround
 
 ## TODO
 
