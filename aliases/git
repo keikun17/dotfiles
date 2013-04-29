@@ -1,0 +1,4 @@
+alias gst='git status'
+alias gd='git diff'
+alias grd='git rm $(git ls-files --deleted)'
+
