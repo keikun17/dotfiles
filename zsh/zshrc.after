@@ -24,4 +24,6 @@ fpath=(.zprezto/modules/completion/external/src $fpath)
 compinit -u
 
 # Aliases
-source aliases/*
+source ~/aliases/git
+source ~/aliases/bundler
+source ~/aliases/start_services
