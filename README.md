@@ -24,6 +24,7 @@
 * Syntastic
 * vim-colors-solarized
 * vim-css-color
+* vim-fugitive
 * vim-gitgutter
 * vim-sensible
 * vim-surround
