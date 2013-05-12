@@ -70,6 +70,10 @@
   " Nerdtree
   nnoremap <C-S-n> :NERDTreeToggle<CR>
 
+  " Format fixing remaps
+    " Remove whitespace
+    nnoremap <Leader>w :%s/\s\+$//e<CR>
+
 " Mouse (LOL!) things
 " ------------------------------------------------------------
 
