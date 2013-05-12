@@ -1,12 +1,12 @@
 " Initialize
 " ------------------------------------------------------------
   set nocompatible
-  
+
   " Initialize Pathogen
   runtime ~/.vim/autoload/pathogen.vim
   call pathogen#infect()
   call pathogen#helptags()
-  
+
   filetype indent on
   filetype plugin on
 
