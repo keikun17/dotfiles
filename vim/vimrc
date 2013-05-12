@@ -22,6 +22,11 @@
   set undodir=~/.vim/backups
   set undofile
 
+" Core mappings
+" ------------------------------------------------------------
+
+  let mapleader=" "
+
 " Powerline runtimepath append stuff that i feel belongs to the plugin folder
 " but can't get working when it's there (TODO: get it working under plugins)
 " -----------------------------------------------------------
