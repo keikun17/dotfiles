@@ -16,7 +16,7 @@
   set noswapfile
   set nobackup
   set nowb
-  
+
   " Persistent Undo
   silent !mkdir ~/.vim/backups > /dev/null 2>&1
   set undodir=~/.vim/backups
@@ -46,9 +46,6 @@
 
  " Use 256 colors plz
  set t_Co=256
- 
- " Split character (Default is '|'), yeah there's a trailing whitespace.
- set fillchars+=vert:\ 
 
  " Split character (Default is '|'), yeah there's a trailing whitespace.
  set fillchars+=vert:\
@@ -65,7 +62,7 @@
   nnoremap th :tabnext<CR>
   nnoremap tl :tabprev<CR>
   nnoremap tn :tabnew<CR>
-  
+
   " Nerdtree
   nnoremap <C-S-n> :NERDTreeToggle<CR>
 
