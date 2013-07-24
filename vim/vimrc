@@ -37,10 +37,6 @@
   " Show line numbers
   set nu
 
- " Highlight 80th column
- set textwidth=80
- set colorcolumn=+1
-
  " Font size
  set guifont=Inconsolata\ for\ Powerline:h14
 
