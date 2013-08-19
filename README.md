@@ -33,4 +33,3 @@
 
 * Eliminate MAC Requirement
 * More Sane copy-paste via reverse ssh + variable pasteboard
-* Move vim shortcuts from 'Mengsk' to 'Volatile'
