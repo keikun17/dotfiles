@@ -78,3 +78,6 @@
   map <ScrollWheelUp> <C-Y>
   map <ScrollWheelDown> <C-E>
 
+" Ignore Syntastic warnings on angular directives.
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+
