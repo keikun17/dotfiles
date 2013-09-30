@@ -28,6 +28,7 @@
 * vim-gitgutter
 * vim-sensible
 * vim-surround
+* emmet-vim
 
 ## TODO
 
