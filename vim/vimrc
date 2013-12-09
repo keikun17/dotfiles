@@ -30,6 +30,7 @@ set modelines=3
 " ------------------------------------------------------------
 
   let mapleader=" "
+  imap jk <Esc>
 
 " Powerline runtimepath append stuff that i feel belongs to the plugin folder
 " but can't get working when it's there (TODO: get it working under plugins)
