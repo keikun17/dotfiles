@@ -106,11 +106,3 @@ set modelines=3
 " Do not deselect after nudging a block
   vnoremap < <gv
   vnoremap > >gv
-
-" Unite mappings
-" ------------------------------------------------------------
-
-" Use file_rec/async
-nnoremap <leader>t :Unite file_rec/async<cr>
-" Fuzzy finder
-call unite#filters#matcher_default#use(['matcher_fuzzy'])
