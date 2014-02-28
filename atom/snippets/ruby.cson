@@ -1,0 +1,41 @@
+# Ruby Rspec
+'.source.ruby':
+  'Spech Helper':
+    'prefix': 'spechelper'
+    'body': "require 'spechelper'"
+
+'.source.ruby':
+  'Rspec describe':
+    'prefix': 'des'
+    'body': 'describe ${1:description} do\n\tbefore do\n\t\t$2\n\tend\nend'
+
+'.source.ruby':
+  'Rspec describe class':
+    'prefix': 'desc'
+    'body': 'describe ${1:Class}, "${2:description}" do\n\tbefore do\n\t\t$2\n\tend\nend'
+
+'.source.ruby':
+  'Rspec it':
+    'prefix': 'it'
+    'body': 'it "should ${1:description}" do\n\t$2\nend'
+
+'.source.ruby':
+  'Rspec it should':
+    'prefix': 'itsh'
+    'body': 'it "should ${1:description}" do\n\t${2:model}.should ${3:something}\nend'
+
+'.source.ruby':
+  'Rspec it should be':
+    'prefix': 'itshbe'
+    'body': 'it "should ${1:description}" do\n\t${2:model}.should be_${3:something}\nend'
+
+# Rspec matchers
+'.source.ruby':
+  'Rspec should equal to':
+    'prefix': 'sheq'
+    'body': '${1:target}.should == $2'
+
+'.source.ruby':
+  'Rspec should be':
+    'prefix': 'shbe'
+    'body': '${1:target}.should be_${2:result}'
