@@ -1,4 +1,4 @@
-# Ruby Rspec
+# Rspec
 '.source.ruby':
   'Spech Helper':
     'prefix': 'spechelper'
@@ -7,33 +7,58 @@
 '.source.ruby':
   'Rspec describe':
     'prefix': 'des'
-    'body': 'describe ${1:description} do\n\tbefore do\n\t\t$2\n\tend\nend'
+    'body': """
+      describe ${1:description} do
+        before do
+          $2
+        end
+      end
+    """
 
 '.source.ruby':
   'Rspec describe class':
     'prefix': 'desc'
-    'body': 'describe ${1:Class}, "${2:description}" do\n\tbefore do\n\t\t$2\n\tend\nend'
+    'body': """
+      describe ${1:Class}, "${2:description}" do
+        before do
+          $2
+        end
+      end
+    """
 
 '.source.ruby':
   'Rspec it':
     'prefix': 'it'
-    'body': 'it "should ${1:description}" do\n\t$2\nend'
+    'body': """
+      it "should ${1:description}" do
+        $2
+      end
+    """
 
 '.source.ruby':
   'Rspec it should':
     'prefix': 'itsh'
-    'body': 'it "should ${1:description}" do\n\t${2:model}.should ${3:something}\nend'
+    'body': """
+      it "should ${1:description}" do
+        ${2:model}.should ${3:something}
+      end
+    """
 
 '.source.ruby':
   'Rspec it should be':
     'prefix': 'itshbe'
-    'body': 'it "should ${1:description}" do\n\t${2:model}.should be_${3:something}\nend'
+    'body': """
+      it "should ${1:description}" do
+        ${2:model}.should be_${3:something}
+      end
+    """
 
-# Rspec matchers
+# Matchers
+
 '.source.ruby':
   'Rspec should equal to':
     'prefix': 'sheq'
-    'body': '${1:target}.should == $2'
+    'body': "${1:target}.should == ${2:value}"
 
 '.source.ruby':
   'Rspec should be':
