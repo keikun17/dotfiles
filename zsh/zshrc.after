@@ -27,3 +27,6 @@ compinit -u
 source ~/aliases/git
 source ~/aliases/bundler
 source ~/aliases/start_services
+
+# Docker host
+export DOCKER_HOST=tcp://127.0.0.1:4243
