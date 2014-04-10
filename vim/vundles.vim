@@ -21,3 +21,4 @@ Bundle "gmarik/vundle"
 " Bundles
 " ========================================
 Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'ngmy/vim-rubocop'

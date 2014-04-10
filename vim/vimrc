@@ -115,3 +115,8 @@ nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
 " </VIM-TMUX-NAV>
+
+" Map rubocop (syntax analyzer)
+" Requires 'rubocop' gem
+let g:vimrubocop_keymap = 0
+nmap <Leader>r :RuboCop<CR>
