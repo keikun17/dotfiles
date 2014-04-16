@@ -30,3 +30,4 @@ Bundle 'Lokaltog/powerline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpop/vim-surround'
+Bundle "ekalinin/Dockerfile.vim"
