@@ -1,3 +1,6 @@
 [submodule "vim/bundle/vundle"]
 	path = vim/bundle/vundle
 	url = https://github.com/gmarik/vundle.git
+[submodule "vim/snippets"]
+	path = vim/snippets
+	url = https://github.com/matthewsimo/angular-vim-snippets
