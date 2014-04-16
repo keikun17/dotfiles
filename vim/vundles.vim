@@ -22,3 +22,11 @@ Bundle "gmarik/vundle"
 " ========================================
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'ngmy/vim-rubocop'
+Bundle 'petdance/ack2'
+Bundle 'mattn/emmet-vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/powerline'
+Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'tpop/vim-surround'
