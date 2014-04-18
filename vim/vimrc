@@ -1,14 +1,24 @@
 " Initialize
 " ------------------------------------------------------------
   set nocompatible
+  filetype off
 
-  " Initialize Pathogen
-  runtime ~/.vim/autoload/pathogen.vim
-  call pathogen#infect()
-  call pathogen#helptags()
+" set the runtime path to include Vundle and initialize
+  set rtp+=~/.vim/bundle/vundle/
+  call vundle#rc()
+  " alternatively, pass a path where Vundle should install plugins
+  "let path = '~/some/path/here'
+  "call vundle#rc(path)
 
   filetype indent on
   filetype plugin on
+
+" =============== Vundle Initialization ===============
+" This loads all the plugins specified in ~/.vim/vundle.vim
+" Use Vundle plugin to manage all other plugins
+if filereadable(expand("~/.vim/vundles.vim"))
+  source ~/.vim/vundles.vim
+endif
 
 " Modelines
 set modeline
@@ -25,23 +35,6 @@ set modelines=3
   silent !mkdir ~/.vim/backups > /dev/null 2>&1
   set undodir=~/.vim/backups
   set undofile
-
-
-  set rtp+=~/.vim/bundle/vundle/
-  call vundle#rc()
-  " let Vundle manage Vundle
-  " required!
-
-  Bundle 'gmarik/vundle'
-  Bundle 'petdance/ack2'
-  Bundle 'mattn/emmet-vim'
-  Bundle 'scrooloose/nerdcommenter'
-  Bundle 'scrooloose/nerdtree'
-  Bundle 'Lokaltog/powerline'
-  Bundle 'tpope/vim-fugitive'
-  Bundle 'airblade/vim-gitgutter'
-  Bundle 'tpop/vim-surround'
-  Bundle 'Shougo/unite'
 
 " Core mappings
 " ------------------------------------------------------------
