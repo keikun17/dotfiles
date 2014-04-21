@@ -30,4 +30,5 @@ Bundle 'Lokaltog/powerline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-surround'
-Bundle "ekalinin/Dockerfile.vim"
+Bundle 'ekalinin/Dockerfile.vim'
+Bundle 'mustache/vim-mustache-handlebars'
