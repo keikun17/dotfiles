@@ -113,3 +113,6 @@ nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
 " Requires 'rubocop' gem
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
+
+" Fix habit of hitting ctrl-c on insert mode
+iunmap <c-c>
