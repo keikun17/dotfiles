@@ -114,5 +114,5 @@ nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
 
-" Fix habit of hitting ctrl-c on insert mode
-iunmap <c-c>
+" Make ctrl-c behave like esc in insert mode (because i am stupid like that)
+inoremap <c-c> <Esc>
