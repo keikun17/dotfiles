@@ -64,7 +64,10 @@ set modelines=3
   " Syntax highlighting and ColorSchemes
   syntax on
   set background=dark
+
+  " When using the solarized theme
   " colorscheme solarized
+  " let g:solarized_termcolors=256
 
   " Treat '-' and '_' as word terminators
   set iskeyword-=_
