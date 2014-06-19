@@ -117,5 +117,6 @@ nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
 
-" Make ctrl-c behave like esc in insert mode (because i am stupid like that)
+" Make ctrl-c behave like esc in insert and visual mode (because i am stupid like that)
 inoremap <c-c> <Esc>
+vnoremap <c-c> <Esc>
