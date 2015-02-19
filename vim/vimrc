@@ -77,8 +77,8 @@ set modelines=3
 " ------------------------------------------------------------
 
   " Tabs
-  nnoremap th :tabnext<CR>
-  nnoremap tl :tabprev<CR>
+  nnoremap th :tabprev<CR>
+  nnoremap tl :tabnext<CR>
   nnoremap tn :tabnew<CR>
 
   " Nerdtree
