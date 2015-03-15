@@ -121,6 +121,14 @@ nmap <Leader>r :RuboCop<CR>
 inoremap <c-c> <Esc>
 vnoremap <c-c> <Esc>
 
+
+
+" Gitgutter
+" ------------------------------------------------------------
+
+  " Do not update gutter when i stop typing
+  let g:gitgutter_realtime = 0
+
 " Make vim run a bit faster
 let loaded_matchparen=1 " Don't load matchit.vim (paren/bracket matching)
 set noshowmatch         " Don't match parentheses/brackets
