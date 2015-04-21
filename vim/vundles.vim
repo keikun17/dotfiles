@@ -31,5 +31,13 @@ Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'heartsentwined/vim-emblem'
 
+
+
+" ========================================
+" Unite.vim and its requirements
+" ========================================
+Bundle "Shougo/vimproc.vim"
+Bundle "Shougo/unite.vim"
+
 runtime languages.vundle
 runtime version_control.vundle
