@@ -1,0 +1,7 @@
+" Linters, Static analyzers
+Bundle 'scrooloose/syntastic.git'
+Bundle 'ngmy/vim-rubocop'
+
+" Language plugins
+Bundle 'mxw/vim-jsx'
+Bundle 'mustache/vim-mustache-handlebars'

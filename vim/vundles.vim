@@ -21,7 +21,6 @@ Bundle "gmarik/vundle"
 " Bundles
 " ========================================
 Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'ngmy/vim-rubocop'
 Bundle 'petdance/ack2'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdcommenter'
@@ -32,5 +31,6 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-surround'
 Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'mustache/vim-mustache-handlebars'
-Bundle 'mxw/vim-jsx'
 Bundle 'heartsentwined/vim-emblem'
+
+runtime languages.vundle
