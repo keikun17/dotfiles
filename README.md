@@ -18,19 +18,12 @@
 
 ### Vim
 
-* Ctrl-P
-* NerdCommenter
-* Powerline
-* Syntastic
-* vim-colors-solarized
-* vim-css-color
-* vim-fugitive
-* vim-gitgutter
-* vim-sensible
-* vim-surround
-* emmet-vim
-
+`vim/vundles.vim`, `vim/vundles/` : Plugins
+`vim/settings/` : Plugin settings and mappings
 ## TODO
 
 * Eliminate MAC Requirement
 * More Sane copy-paste via reverse ssh + variable pasteboard
+
+
+
