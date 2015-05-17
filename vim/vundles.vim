@@ -31,7 +31,11 @@ Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'heartsentwined/vim-emblem'
 
-
+" ========================================
+" Autotcomplete
+" ========================================
+Bundle "vim-scripts/AutoTag.git"
+Bundle "Valloric/YouCompleteMe"
 
 " ========================================
 " Unite.vim and its requirements
