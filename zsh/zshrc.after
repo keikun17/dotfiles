@@ -35,3 +35,17 @@ export DOCKER_HOST=tcp://127.0.0.1:4243
 # When in vi-mode, Accept suggestions without leaving insert mode
 # see : https://github.com/tarruda/zsh-autosuggestions
 bindkey '^f' vi-forward-word
+
+# Setup zsh-autosuggestions
+source /Users/Valerian/.zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically
+zle-line-init() {
+zle autosuggest-start
+}
+
+zle -N zle-line-init
+
+# use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
+# zsh-autosuggestions is designed to be unobtrusive)
+bindkey '^T' autosuggest-toggle
