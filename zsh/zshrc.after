@@ -30,3 +30,8 @@ source ~/aliases/start_services
 
 # Docker host
 export DOCKER_HOST=tcp://127.0.0.1:4243
+
+
+# When in vi-mode, Accept suggestions without leaving insert mode
+# see : https://github.com/tarruda/zsh-autosuggestions
+bindkey '^f' vi-forward-word
