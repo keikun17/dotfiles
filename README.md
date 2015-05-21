@@ -11,6 +11,7 @@
 ### Vim
 
 * Ack
+* Exuberant ctags
 
 ## Includes
 
