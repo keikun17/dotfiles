@@ -2,7 +2,6 @@
 
 ## Requirements
 
-
 ### Zsh
 
 * keikun17-prezto : https://github.com/keikun17/prezto/tree/master/modules
@@ -12,6 +11,11 @@
 
 * Ack
 * Exuberant ctags
+* eslint
+
+    npm install -g eslint
+    npm install -g babel-eslint
+    npm install -g eslint-plugin-react
 
 ## Includes
 
