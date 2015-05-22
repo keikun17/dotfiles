@@ -4,3 +4,5 @@ Bundle 'ngmy/vim-rubocop'
 
 " Language plugins
 Bundle 'mustache/vim-mustache-handlebars'
+Bundle 'mxw/vim-jsx'
+
