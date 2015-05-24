@@ -26,13 +26,18 @@ Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/powerline'
-Bundle 'tpope/vim-surround'
 Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'heartsentwined/vim-emblem'
 
 " ========================================
-" Autotcomplete
+" Formatting
+" ========================================
+Bundle 'tpope/vim-surround'
+Bundle 'godlygeek/tabular'
+
+" ========================================
+" autotcomplete
 " ========================================
 Bundle "vim-scripts/AutoTag.git"
 Bundle "Valloric/YouCompleteMe"
