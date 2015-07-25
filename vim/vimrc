@@ -103,6 +103,10 @@ set modelines=3
   vnoremap < <gv
   vnoremap > >gv
 
+" Save with CTRL-S
+  inoremap <C-s> <esc>:w<cr>
+  nnoremap <C-s> :w<cr>
+
 " <VIM-TMUX-NAV>
 " move out to tmux pane if the next pane is a tmux pane
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
