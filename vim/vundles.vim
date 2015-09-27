@@ -41,7 +41,7 @@ Bundle 'isRuslan/vim-es6'
 " autotcomplete
 " ========================================
 Bundle "vim-scripts/AutoTag.git"
-Bundle "Valloric/YouCompleteMe"
+"--- Bundle "Valloric/YouCompleteMe"
 
 " ========================================
 " Unite.vim and its requirements
