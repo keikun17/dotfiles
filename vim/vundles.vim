@@ -31,10 +31,11 @@ Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'heartsentwined/vim-emblem'
 
 " ========================================
-" Formatting
+" Formatting and Snippets
 " ========================================
 Bundle 'tpope/vim-surround'
 Bundle 'godlygeek/tabular'
+Bundle 'isRuslan/vim-es6'
 
 " ========================================
 " autotcomplete
