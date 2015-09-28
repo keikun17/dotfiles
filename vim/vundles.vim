@@ -22,7 +22,6 @@ Bundle "gmarik/vundle"
 " ========================================
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'petdance/ack2'
-Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/powerline'
@@ -30,18 +29,24 @@ Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'heartsentwined/vim-emblem'
 
+
+" ========================================
+" Autocompleters
+" ========================================
+Bundle 'mattn/emmet-vim'
+Bundle "vim-scripts/AutoTag.git"
+Bundle "Valloric/YouCompleteMe"
+Bundle 'ervandew/supertab'
+Bundle "sirver/ultisnips"
+
 " ========================================
 " Formatting and Snippets
 " ========================================
+
 Bundle 'tpope/vim-surround'
 Bundle 'godlygeek/tabular'
 Bundle 'isRuslan/vim-es6'
 
-" ========================================
-" autotcomplete
-" ========================================
-Bundle "vim-scripts/AutoTag.git"
-"--- Bundle "Valloric/YouCompleteMe"
 
 " ========================================
 " Unite.vim and its requirements
