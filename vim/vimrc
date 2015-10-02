@@ -1,5 +1,11 @@
+
 " Initialize
 " ------------------------------------------------------------
+  " Vim can't use fish well yet.
+  if &shell =~# 'fish$'
+    set shell=/bin/zsh
+  endif
+
   set nocompatible
   filetype off
 
