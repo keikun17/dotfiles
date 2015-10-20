@@ -21,12 +21,13 @@ alias fish_edit_alias "nvim ~/.config/fish/aliases.fish"
 alias fish_edit_config "nvim ~/.config/fish/config.fish"
 alias fish_reload "source ~/.config/fish/config.fish"
 
-# PS
+# Processes
 alias psa "ps aux"
 alias psg "ps aux | grep "
 alias psr 'ps aux | grep ruby'
 
-# Kill
+alias top "sudo htop"
+
 alias ka9='killall -9'
 alias k9='kill -9'
 
