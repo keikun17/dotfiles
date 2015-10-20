@@ -16,8 +16,9 @@ alias grd "git rm (git ls-files --deleted)"
 alias lsg "ll | grep"
 
 # Fish configs
-alias falias "nvim ~/.config/fish/aliases.fish"
-alias fconfig "nvim ~/.config/fish/config.fish"
+alias fish_edit_alias "nvim ~/.config/fish/aliases.fish"
+alias fish_edit_config "nvim ~/.config/fish/config.fish"
+alias fish_reload "source ~/.config/fish/config.fish"
 
 # PS
 alias psa "ps aux"
