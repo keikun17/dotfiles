@@ -6,6 +6,7 @@ alias be "bundle exec"
 
 # Git
 alias ga "git add -A"
+alias gc "git commit"
 alias gcm "git commit -m"
 alias gd "git diff"
 alias gl "git log"
