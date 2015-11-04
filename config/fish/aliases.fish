@@ -21,6 +21,13 @@ alias fish_edit_alias "nvim ~/.config/fish/aliases.fish"
 alias fish_edit_config "nvim ~/.config/fish/config.fish"
 alias fish_reload "source ~/.config/fish/config.fish"
 
+# Postgres (if PG was installed with brew)
+alias postgres_ctl='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
+alias postgres.start='postgres_ctl start'
+alias postgres.stop='postgres_ctl stop'
+alias postgres.status='postgres_ctl status'
+alias postgres.log='tail -f /usr/local/var/postgres/server.log'
+
 # Processes
 alias psa "ps aux"
 alias psg "ps aux | grep "
