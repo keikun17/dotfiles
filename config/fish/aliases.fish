@@ -23,10 +23,14 @@ alias fish_reload "source ~/.config/fish/config.fish"
 
 # Postgres (if PG was installed with brew)
 alias postgres_ctl='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
-alias postgres.start='postgres_ctl start'
-alias postgres.stop='postgres_ctl stop'
+alias postgres.start='brew services start postgres'
+alias postgres.stop='brew services stop postgres'
 alias postgres.status='postgres_ctl status'
 alias postgres.log='tail -f /usr/local/var/postgres/server.log'
+
+# Elasticsearch (if ES was installed with brew)
+alias elasticsearch.start="brew services start elasticsearch"
+alias elasticsearch.stop="brew services stop elasticsearch"
 
 # Processes
 alias psa "ps aux"
