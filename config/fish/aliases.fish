@@ -17,9 +17,13 @@ alias grd "git rm (git ls-files --deleted)"
 alias lsg "ll | grep"
 
 # Fish configs
-alias fish_edit_alias "nvim ~/.config/fish/aliases.fish"
-alias fish_edit_config "nvim ~/.config/fish/config.fish"
-alias fish_reload "source ~/.config/fish/config.fish"
+alias fish.edit_alias "nvim ~/.config/fish/aliases.fish"
+alias fish.edit_config "nvim ~/.config/fish/config.fish"
+alias fish.reload "source ~/.config/fish/config.fish"
+
+# Mysql (if Mysql was installed with brew)
+alias mysql.start="brew services start mysql"
+alias mysql.stop="brew services stop mysql"
 
 # Postgres (if PG was installed with brew)
 alias postgres_ctl='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
