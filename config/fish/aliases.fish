@@ -48,6 +48,7 @@ alias k9='kill -9'
 
 # Tmux
 alias tl="tmux ls"
+alias t0="tmux attach -t 0"
 alias t1="tmux attach -t 1"
 alias t2="tmux attach -t 2"
 alias t3="tmux attach -t 3"
