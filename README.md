@@ -21,8 +21,6 @@
 
 ### Vim
 
-* Get rid of zsh
-
 `vim/vundles.vim`, `vim/vundles/` : Plugins
 `vim/settings/` : Plugin settings and mappings
 
@@ -60,14 +58,5 @@ ANSI WHITE (BOLD)   255, 255, 255
 
 ### Migrate from zsh to fish
 
-* term color not being properly set when sshed remotely
-* reverse search (ala ctrl-r)
-
-
-### Others
-
-* Eliminate MAC Requirement
-* More Sane copy-paste via reverse ssh + variable pasteboard
-
-
-
+[ ] Get rid of zsh
+[ ] term color not being properly set when sshed remotely
